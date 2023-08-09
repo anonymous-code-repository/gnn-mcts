@@ -16,4 +16,4 @@ print(torch.__version__)
 !pip install -q git+https://github.com/pyg-team/pytorch_geometric.git
 ```
 
-The datasets are available in the "dataset/" folder. These datasets need to be converted to appropriate format using the "gnn/convert_data_steiner.py" file.
+The datasets are available in the "dataset/" folder. These datasets need to be converted to appropriate format using the "gnn/convert_data_steiner.py" file. To train the neural network, "gnn/train_steiner.py" needs to be used.
